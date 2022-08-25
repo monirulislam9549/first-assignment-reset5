@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 .header {
@@ -24,14 +25,17 @@ body {
 }
 
 .btn {
-    padding: 16px 12px;
+    padding: 20px 50px;
     border-radius: 5px;
     background-color: #FF5959;
     border: none;
     cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
 }
 
-#headline {
+.headline {
     text-align: center;
 }
 
@@ -43,5 +47,27 @@ body {
 section {
     gap: 50px;
     display: flex;
+    padding-left: 10%;
 
+}
+
+.bg h1 {
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    color: #707070;
+    padding: 42px 71px;
+
+}
+
+#select {
+    background-color: #FFEEEE;
+    padding: 42px 71px;
+    border-radius: 5px;
+    border: #FF5959;
+    font-weight: bold;
+    color: #FF5959;
+}
+
+.other-amount {
+    text-align: center;
 }
