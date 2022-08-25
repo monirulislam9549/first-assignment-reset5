@@ -71,3 +71,17 @@ section {
 .other-amount {
     text-align: center;
 }
+
+.plan {
+    text-align: center;
+
+}
+
+#big {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.plan p {
+    color: #707070;
+}
