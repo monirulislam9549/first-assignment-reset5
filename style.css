@@ -142,10 +142,9 @@ input {
 }
 
 .sub-btn {
+    margin-left: 750px;
     width: 157px;
     height: 48px;
-    left: 720px;
-    top: 3130px;
     border: none;
     border-radius: 5px;
     background-color: #FF5959;
