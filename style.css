@@ -110,3 +110,14 @@ section {
     border-radius: 5px;
     height: 350px;
 }
+
+.bonus-part {
+    display: flex;
+    margin: 50px;
+    gap: 50px;
+}
+
+.bonus-part p {
+    font-weight: bold;
+    font-size: x-large;
+}
